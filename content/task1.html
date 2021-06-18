@@ -1,0 +1,193 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>cd2021 四設計三甲 40723135 個人網站</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cd2021 四設計三甲 40723135 個人網站</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='First.html'>First</a><li><a href='個人網站.html'>個人網站</a><li class='has-children'><a href='stage-1 bga28.html'>stage-1 bga28</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a></li></ul><li><a href='W5.html'>W5</a><li class='has-children'><a href='Stag-2 bag4.html'>Stag-2 bag4</a><ul class='dropdown'><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a></li></ul><li class='has-children'><a href='Stage-3 bg4.html'>Stage-3 bg4</a><ul class='dropdown'><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13-14.html'>W13-14</a><li><a href='W15.html'>W15</a><li><a href='W16.html'>W16</a></li></ul><li><a href='task1.html'>task1</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">W16 << <a href='W16.html'>Previous</a> <br /><h1>task1</h1>
+<p><a href="https://drive.google.com/file/d/1lM0VNfr4UiKsBBgyafNsHEFm15NU_7Tt/view?usp=sharing">stage3_2b.txt</a></p>
+<p><a href="http://github.com/40823245/stage3-bg1">stage3-bg1 repo</a><span><span> </span>|<span> </span></span><a href="http://40823251.github.io/stage3-bg1">stage3-bg1 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823245/cd2021">40823245 repo</a><span><span> </span>|<span> </span></span><a href="http://40823245.github.io/cd2021">40823245 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823251/cd2021">40823251 repo</a><span><span> </span>|<span> </span></span><a href="http://40823251.github.io/cd2021">40823251 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823208/cd2021">40823208 repo</a><span><span> </span>|<span> </span></span><a href="http://40823208.github.io/cd2021">40823208 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823213/cd2021">40823213 repo</a><span><span> </span>|<span> </span></span><a href="http://40823213.github.io/cd2021">40823213 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823232/cd2021">40823232 repo</a><span><span> </span>|<span> </span></span><a href="http://40823232.github.io/cd2021">40823232 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823234/cd2021">40823234 repo</a><span><span> </span>|<span> </span></span><a href="http://40823234.github.io/cd2021">40823234 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823235/cd2021">40823235 repo</a><span><span> </span>|<span> </span></span><a href="http://40823235.github.io/cd2021">40823235 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823246/cd2021">40823246 repo</a><span>|<span> </span></span><a href="http://40823246.github.io/cd2021">40823246 site</a></p>
+<p><span>----------</span><br/><a href="http://github.com/40823217/stage3-bg2">stage3-bg2 repo</a><span><span> </span>|<span> </span></span><a href="http://40823201.github.io/stage3-bg2">stage3-bg2 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823217/cd2021">40823217 repo</a><span><span> </span>|<span> </span></span><a href="http://40823217.github.io/cd2021">40823217 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823201/cd2021">40823201 repo</a><span><span> </span>|<span> </span></span><a href="http://40823201.github.io/cd2021">40823201 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823209/cd2021">40823209 repo</a><span><span> </span>|<span> </span></span><a href="http://40823209.github.io/cd2021">40823209 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823210/cd2021">40823210 repo</a><span><span> </span>|<span> </span></span><a href="http://40823210.github.io/cd2021">40823210 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823206/cd2021">40823206 repo</a><span><span> </span>|<span> </span></span><a href="http://40823206.github.io/cd2021">40823206 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823207/cd2021">40823207 repo</a><span><span> </span>|<span> </span></span><a href="http://40823207.github.io/cd2021">40823207 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823223/cd2021">40823223 repo</a><span><span> </span>|<span> </span></span><a href="http://40823223.github.io/cd2021">40823223 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823224/cd2021">40823224 repo</a><span>|<span> </span></span><a href="http://40823224.github.io/cd2021">40823224 site</a><br/><span>----------</span><br/><a href="http://github.com/40823236/stage3-bg3">stage3-bg3 repo</a><span><span> </span>|<span> </span></span><a href="http://40823202.github.io/stage3-bg3">stage3-bg3 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823236/cd2021">40823236 repo</a><span><span> </span>|<span> </span></span><a href="http://40823236.github.io/cd2021">40823236 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823202/cd2021">40823202 repo</a><span><span> </span>|<span> </span></span><a href="http://40823202.github.io/cd2021">40823202 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823203/cd2021">40823203 repo</a><span><span> </span>|<span> </span></span><a href="http://40823203.github.io/cd2021">40823203 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823212/cd2021">40823212 repo</a><span><span> </span>|<span> </span></span><a href="http://40823212.github.io/cd2021">40823212 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823219/cd2021">40823219 repo</a><span><span> </span>|<span> </span></span><a href="http://40823219.github.io/cd2021">40823219 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823222/cd2021">40823222 repo</a><span><span> </span>|<span> </span></span><a href="http://40823222.github.io/cd2021">40823222 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823231-2/cd2021">40823231-2 repo</a><span><span> </span>|<span> </span></span><a href="http://40823231-2.github.io/cd2021">40823231-2 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823244/cd2021">40823244 repo</a><span>|<span> </span></span><a href="http://40823244.github.io/cd2021">40823244 site</a><br/><span>----------</span><br/><a href="http://github.com/40823239/stage3-bg4">stage3-bg4 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723140.github.io/stage3-bg4">stage3-bg4 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823239/cd2021">40823239 repo</a><span><span> </span>|<span> </span></span><a href="http://40823239.github.io/cd2021">40823239 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723140/cd2021">s40723140 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723140.github.io/cd2021">s40723140 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723128/cd2021">s40723128 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723128.github.io/cd2021">s40723128 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723139/cd2021">s40723139 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723139.github.io/cd2021">s40723139 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723106/cd2021">s40723106 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723106.github.io/cd2021">s40723106 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723135/cd2021">s40723135 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723135.github.io/cd2021">s40723135 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723143/cd2021">s40723143 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723143.github.io/cd2021">s40723143 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723215/cd2021">s40723215 repo</a><span>|<span> </span></span><a href="http://s40723215.github.io/cd2021">s40723215 site</a><br/><span>----------</span><br/><a href="http://github.com/40823221/stage3-bg5">stage3-bg5 repo</a><span><span> </span>|<span> </span></span><a href="http://40823204.github.io/stage3-bg5">stage3-bg5 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823221/cd2021">40823221 repo</a><span><span> </span>|<span> </span></span><a href="http://40823221.github.io/cd2021">40823221 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823204/cd2021">40823204 repo</a><span><span> </span>|<span> </span></span><a href="http://40823204.github.io/cd2021">40823204 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823205/cd2021">40823205 repo</a><span><span> </span>|<span> </span></span><a href="http://40823205.github.io/cd2021">40823205 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823220/cd2021">40823220 repo</a><span><span> </span>|<span> </span></span><a href="http://40823220.github.io/cd2021">40823220 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823228/cd2021">40823228 repo</a><span><span> </span>|<span> </span></span><a href="http://40823228.github.io/cd2021">40823228 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823237/cd2021">40823237 repo</a><span><span> </span>|<span> </span></span><a href="http://40823237.github.io/cd2021">40823237 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823242/cd2021">40823242 repo</a><span><span> </span>|<span> </span></span><a href="http://40823242.github.io/cd2021">40823242 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823250/cd2021">40823250 repo</a><span>|<span> </span></span><a href="http://40823250.github.io/cd2021">40823250 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40832244/cd2021">40832244 repo</a><span>|<span> </span></span><a href="http://40832244.github.io/cd2021">40832244 site</a><br/><span>----------</span><br/><a href="http://github.com/40823225/stage3-bg6">stage3-bg6 repo</a><span><span> </span>|<span> </span></span><a href="http://40823214.github.io/stage3-bg6">stage3-bg6 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823225/cd2021">40823225 repo</a><span><span> </span>|<span> </span></span><a href="http://40823225.github.io/cd2021">40823225 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823214/cd2021">40823214 repo</a><span><span> </span>|<span> </span></span><a href="http://40823214.github.io/cd2021">40823214 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823218/cd2021">40823218 repo</a><span><span> </span>|<span> </span></span><a href="http://40823218.github.io/cd2021">40823218 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823211/cd2021">40823211 repo</a><span><span> </span>|<span> </span></span><a href="http://40823211.github.io/cd2021">40823211 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823248/cd2021">40823248 repo</a><span><span> </span>|<span> </span></span><a href="http://40823248.github.io/cd2021">40823248 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823247/cd2021">40823247 repo</a><span><span> </span>|<span> </span></span><a href="http://40823247.github.io/cd2021">40823247 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823216/cd2021">40823216 repo</a><span><span> </span>|<span> </span></span><a href="http://40823216.github.io/cd2021">40823216 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823238/cd2021">40823238 repo</a><span>|<span> </span></span><a href="http://40823238.github.io/cd2021">40823238 site</a><br/><span>----------</span><br/><a href="http://github.com/40623144/stage3-bg7">stage3-bg7 repo</a><span><span> </span>|<span> </span></span><a href="http://40823233.github.io/stage3-bg7">stage3-bg7 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40623144/cd2021">40623144 repo</a><span><span> </span>|<span> </span></span><a href="http://40623144.github.io/cd2021">40623144 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823233/cd2021">40823233 repo</a><span><span> </span>|<span> </span></span><a href="http://40823233.github.io/cd2021">40823233 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723224/cd2021">s40723224 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723224.github.io/cd2021">s40723224 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823241/cd2021">40823241 repo</a><span><span> </span>|<span> </span></span><a href="http://40823241.github.io/cd2021">40823241 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40423155/cd2021">40423155 repo</a><span><span> </span>|<span> </span></span><a href="http://40423155.github.io/cd2021">40423155 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/40823227/cd2021">40823227 repo</a><span><span> </span>|<span> </span></span><a href="http://40823227.github.io/cd2021">40823227 site</a><span><span> </span>|<span> </span></span><a href="http://github.com/s40723233/cd2021">s40723233 repo</a><span><span> </span>|<span> </span></span><a href="http://s40723233.github.io/cd2021">s40723233 site</a></p>
+<p></p>
+<div class="line number1 index0 alt2"></div>
+<div class="container"></div>
+<p></p><br />W16 << <a href='W16.html'>Previous</a> </div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
